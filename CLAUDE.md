@@ -33,8 +33,12 @@ An **e-commerce order pipeline** (orders → payments / inventory / analytics) t
 
 Each module has `CONCEPTS.md` (theory and interview questions), `EXERCISES.md` (hands-on steps), and code/config.
 
+## Repository
+- GitHub: https://github.com/Chandu8998/kafka-learning (public, branch `main`, auth via `gh` at ~/.local/bin/gh)
+- Commit and push after each module or significant update.
+
 ## Environment (WSL2 Linux, 24 cores, 15 GB RAM)
-- Installed: Docker 29.8 + Compose v5.5, Python 3.14 (venv ok, no global pip), Terraform 1.16, Azure CLI 2.90
+- Installed: Docker 29.8 + Compose v5.5, Python 3.14 (venv ok, no global pip), Terraform 1.16, Azure CLI 2.90, gh 2.102 (user-local)
 - Not installed yet: Java, kubectl, kind, helm, gcloud (install when the module needs them)
 - Kafka image: `confluentinc/cp-kafka:8.0.0` (Confluent Platform 8, KRaft only, no ZooKeeper)
 
@@ -48,6 +52,7 @@ Each module has `CONCEPTS.md` (theory and interview questions), `EXERCISES.md` (
 - 2026-10-01: Project created. Chose Confluent images (JD mentions Control Center) and KRaft mode.
 - 2026-10-01: Module 1 created (docker-compose, CONCEPTS.md, EXERCISES.md).
 - 2026-10-01: EXERCISES.md expanded with a detailed explanation for every step (flags, internals, outputs, interview angles). Outputs checked against the running cp-kafka 8.0.0.
+- 2026-10-03: Git initialized and pushed to public GitHub repo Chandu8998/kafka-learning.
 
 ## Open Tasks
 - User: work through `01-kafka-basics/EXERCISES.md` and answer the self-check questions.
