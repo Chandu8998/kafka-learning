@@ -29,7 +29,7 @@ An **e-commerce order pipeline** (orders → payments / inventory / analytics) t
 | 6 | `06-kubernetes` | kind cluster, Helm, Confluent for Kubernetes (CFK) operator, Kafka on K8s | Todo |
 | 7 | `07-terraform` | Terraform basics → Kafka topics as code → AKS (Azure) / GKE (GCP) provisioning | Todo |
 | 8 | `08-automation` | Shell scripts wrapping Terraform, health checks, CI/CD-style deploys | Todo |
-| 9 | `09-interview-prep` | Architecture design questions, troubleshooting scenarios, resume talking points | Todo |
+| 9 | `09-interview-prep` | Architecture design questions, troubleshooting scenarios, resume talking points | In progress |
 
 Each module has `CONCEPTS.md` (theory and interview questions), `EXERCISES.md` (hands-on steps), and code/config.
 
@@ -53,6 +53,7 @@ Each module has `CONCEPTS.md` (theory and interview questions), `EXERCISES.md` (
 - 2026-10-01: Module 1 created (docker-compose, CONCEPTS.md, EXERCISES.md).
 - 2026-10-01: EXERCISES.md expanded with a detailed explanation for every step (flags, internals, outputs, interview angles). Outputs checked against the running cp-kafka 8.0.0.
 - 2026-10-03: Git initialized and pushed to public GitHub repo Chandu8998/kafka-learning.
+- 2026-10-06: Added `09-interview-prep/INTERVIEW-CRASH-PREP.md` (K8s, networking, Docker scenarios; "ShopStream" project story) for an interview the same day.
 
 ## Open Tasks
 - User: work through `01-kafka-basics/EXERCISES.md` and answer the self-check questions.
