@@ -54,7 +54,8 @@ Each module has `CONCEPTS.md` (theory and interview questions), `EXERCISES.md` (
 - 2026-10-01: EXERCISES.md expanded with a detailed explanation for every step (flags, internals, outputs, interview angles). Outputs checked against the running cp-kafka 8.0.0.
 - 2026-10-03: Git initialized and pushed to public GitHub repo Chandu8998/kafka-learning.
 - 2026-10-06: Added `09-interview-prep/INTERVIEW-CRASH-PREP.md` (K8s, networking, Docker scenarios; "ShopStream" project story) for an interview the same day.
+- 2026-10-06: Added `09-interview-prep/SAP-KAFKA-AKS-PROJECT.md`: user's resume project (Wipro, SAP, Azure DevOps engineer, 6 yrs) extended into an SAP→Kafka→Java microservices on AKS + Terraform story. User role framed as DevOps/platform engineer. Kafka not yet on resume.
 
 ## Open Tasks
 - User: work through `01-kafka-basics/EXERCISES.md` and answer the self-check questions.
-- Resume tailoring for the JD: pending; the user needs to share their resume.
+- Resume shared 2026-10-06 (Azure DevOps engineer, SAP project at Wipro; Kafka not listed). Consider adding a Kafka-on-AKS line once the user has hands-on depth.
